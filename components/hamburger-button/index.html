@@ -1,0 +1,57 @@
+<div class="ham-flex-start">
+    <div class="line-1"></div>
+    <div class="line-2"></div>
+    <div class="line-3"></div>
+</div>
+
+<style>
+    .ham-flex-start{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50px;
+    height:50px;
+    cursor:pointer;
+    z-index: 9999;
+    }
+
+    .ham-flex-start >.line-1{
+        width: 25px;
+        height: 1px;
+        background-color: black;
+    }
+    .ham-flex-start >.line-2{
+        width: 15px;
+        height: 1px;
+        background-color: black;
+        margin: 5px 0px;
+    }
+    .ham-flex-start >.line-3{
+        width: 25px;
+        height: 1px;
+        background-color: black;
+    }
+    .zeroOpacity {
+        transition: .5s;
+        opacity: 0 !important
+    }
+  
+    .setOpacity {
+        transition: .5s;
+        opacity: 1
+    }
+
+    .rotate-line-1{
+        transition: 0.3s;
+        transform: rotate(45deg);
+        position: absolute; 
+    }
+    .rotate-line-3{
+        transition: 0.3s;
+        transform: rotate(-45deg);
+        position: absolute;
+    }
+    
+</style>

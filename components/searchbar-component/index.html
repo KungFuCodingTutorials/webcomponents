@@ -1,0 +1,30 @@
+<div class="searchbarContainer">
+    <input type="search" placeholder="{placeholderName}" name="{name}">
+    <input type="submit" value="Cerca">
+</div>
+<style>
+    .searchbarContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 15px auto 100px auto;
+    }
+    .searchbarContainer input[type="search"]{
+        width: 100%;
+        padding: 8px 16px;
+        border: 1px solid #c2c2c2;
+        font-family: "Value",sans-serif;
+    }
+    .searchbarContainer input[type="submit"]{
+        width: fit-content;
+        padding: 9px 16px;
+        background-color: #009eff;
+        border: none;
+        font-family: "Value",sans-serif;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+</style>
